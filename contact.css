@@ -163,6 +163,7 @@ header > .navbar > .left-content > img {
 }
 
 header > .navbar > .left-content > a {
+    font-family: "Playwrite NO", sans-serif;
     color: var(--text);
     margin-left: 1%;
 }
@@ -284,6 +285,10 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 20px;
+}
+
+.shop-description > h1 {
+    font-family: "Playwrite NO", sans-serif;
 }
 
 .socials-links {
