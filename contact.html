@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hearthside Coffee</title>
+    
+    <!-- ========== Favicon ========== -->
+    <link rel="icon" type="image/x-icon" href="./images/shop-logo.png">
+
+    <!-- ========== External CSS (contact page styles) ========== -->
+    <link rel="stylesheet" href="contact.css">
+
+    <!-- ========== Font Awesome Icons ========== -->
+    <script src="https://kit.fontawesome.com/42ae20e866.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- ====================== HEADER & NAVIGATION ======================= -->
+    <header>
+        <nav class="navbar">
+
+            <!-- Left: Logo + Brand Name -->
+            <div class="left-content">
+                <img src="./images/shop-logo.png" alt="Hearthside Coffee logo">
+                <a class="logo" href="index.html">Hearthside Coffee</a>
+            </div>
+
+            <!-- Desktop Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+
+            <!-- Mobile Menu Icon (CSS-only version) -->
+            <div class="right-content">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- ========================== MAIN CONTENT ============================= -->
+    <main>
+
+        <!-- ========== CONTACT PAGE INTRO SECTION ========== -->
+        <section class="contact-greeting">
+            <h1>Experience the Perfect Brew at Hearthside Coffee</h1>
+            <p>
+                Connecting over exceptional coffee and cozy ambiance. Reach out to us or 
+                reserve your table for a delightful experience.
+            </p>
+        </section>
+
+        <!-- ========== RESERVATION FORM SECTION ========== -->
+        <section class="input-form-container reservation-form-container">
+
+            <form class="input-form reservation-form">
+
+                <h2>Reserve Your Table</h2>
+
+                <!-- Date -->
+                <div class="input-field date-input">
+                    <label for="date">Date</label>
+                    <input id="date" type="text" placeholder="Select a date">
+                </div>
+
+                <!-- Time -->
+                <div class="input-field time-input">
+                    <label for="time">Time</label>
+                    <input id="time" type="text" placeholder="10:30 AM">
+                </div>
+
+                <!-- Number of People -->
+                <div class="input-field people-input">
+                    <label for="people">Number of People</label>
+                    <input id="people" type="text" placeholder="e.g., 2, 4, 6">
+                </div>
+
+                <!-- Full Name -->
+                <div class="input-field fullname-input">
+                    <label for="name">Full Name</label>
+                    <input id="name" type="text" placeholder="Enter your full name">
+                </div>
+
+                <!-- Phone Number -->
+                <div class="input-field phone-input">
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" type="text" placeholder="+251 9XX XXX XXX">
+                </div>
+
+                <button class="primary-btn reserve-btn">Request Reservation</button>
+            </form>
+
+        </section>
+
+        <!-- ========== CONTACT MESSAGE FORM SECTION ========== -->
+        <section class="input-form-container contact-form-container">
+
+            <form class="input-form contact-form">
+
+                <h2>Send Us a Message</h2>
+
+                <!-- Name -->
+                <div class="input-field name-input">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="Your name">
+                </div>
+
+                <!-- Email -->
+                <div class="input-field email-input">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="youremail@example.com" required>
+                </div>
+
+                <!-- Subject -->
+                <div class="input-field subject-input">
+                    <label for="subject">Subject</label>
+                    <input id="subject" type="text" placeholder="What is your message about?">
+                </div>
+
+                <!-- Message -->
+                <div class="input-field message-input">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="Write your message here..." required></textarea>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="input-field phone-input">
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" type="text" placeholder="+251 9XX XXX XXX">
+                </div>
+
+                <button class="primary-btn reserve-btn">Send Message</button>
+
+            </form>
+
+        </section>
+    </main>
+
+   <!-- ========================== FOOTER SECTION ============================= -->
+    <footer>
+        <div class="footer-info">
+            <div class="shop-info">
+                <div class="shop-description">
+                    <h1>Hearthside Coffee</h1>
+                    <p>We offer more than great coffee. From online orders to world-class <br> baristas, we ensure every part of your experience is exceptional.</p>
+                </div>
+                <div class="socials-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="shop-links">
+                <nav class="links">
+                    <h3>Browse</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="links contact-info">
+                    <h3>Connect with us</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> &ThinSpace; Varnero, Lebu, Addis Ababa</li>
+                        <li><i class="fa-solid fa-phone"></i>  &ThinSpace; +251-925-714-23</li>
+                        <li><i class="fa-solid fa-envelope"></i>  &ThinSpace; hearthside@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-cr">
+            <p>&copy; 2024 Hearthside Coffee. All rights reserved.</p>
+            <a href="#">Privacy Policy</a>
+        </div>
+    </footer>
+</body>
+</html>
